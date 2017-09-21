@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SoftwareEng</groupId>
+  <artifactId>Assignment1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+
+  	<dependency>
+    	<groupId>joda-time</groupId>
+    	<artifactId>joda-time</artifactId>
+	    <version>2.9.9</version>
+	</dependency>
+  
+  	<dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.12</version>
+    	<scope>test</scope>
+	</dependency>
+  </dependencies>
+  
+  <distributionManagement>  
+    <repository>
+        <id>dropbox-mvn-repo</id>
+        <url>file:///C:\Users\daver\Dropbox\dropbox-mvn-repo</url>
+    </repository>
+</distributionManagement> 
+
+<repositories>  
+    <repository>
+        <id>dropbox-mvn-repo</id>
+        <name>My Dropbox Repository</name>
+        <url>
+            https://www.dropbox.com/sh/ureliqz1kdpwyd8/AAD7vKskd8a9v-x6sKU8WYYta?dl=0
+        </url>
+    </repository>
+</repositories>
+  
+</project>
