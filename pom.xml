@@ -28,13 +28,10 @@
 </distributionManagement> 
 
 <repositories>  
-    <repository>
-        <id>dropbox-mvn-repo</id>
-        <name>My Dropbox Repository</name>
-        <url>
-            https://www.dropbox.com/sh/ureliqz1kdpwyd8/AAD7vKskd8a9v-x6sKU8WYYta?dl=0
-        </url>
-    </repository>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
 </repositories>
   
 </project>
